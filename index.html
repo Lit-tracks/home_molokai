@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--
+
+  _    _                                                   __  ____                 
+ | |  | |                                                 / / |  _ \                
+ | |__| | ___  _ __ ___   ___ _ __   __ _  __ _  ___     / /  | |_) | __ _ ___  ___ 
+ |  __  |/ _ \| '_ ` _ \ / _ \ '_ \ / _` |/ _` |/ _ \   / /   |  _ < / _` / __|/ _ \
+ | |  | | (_) | | | | | |  __/ |_) | (_| | (_| |  __/  / /    | |_) | (_| \__ \  __/
+ |_|  |_|\___/|_| |_| |_|\___| .__/ \__,_|\__, |\___| /_/     |____/ \__,_|___/\___|
+                             | |           __/ |                                    
+                             |_|          |___/                                     
+
+-->
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Molokai</title>
+
+    <style type="text/css">
+        /*
+        * This works well on an up-to-date Gecko-based browsers such as Firefox, Palemoon, and SeaMonkey
+        * This works in webkit browsers, but does it poorly and I experience some lags with it
+        * Colour scheme based on Spacegray.vim: https://github.com/ajh17/Spacegray.vim
+        *
+        * Homepage by: grillmaster-t28
+        * Version: v4.2
+        * Website: http://grillmaster.net16.net/
+        * Last Updated: 2016 Aug 14
+        * License: Public Domain
+        *
+        * No Javascript is required to use this homepage
+        *
+        */
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #t a {
+            color: #B7BBB7;
+            text-decoration: none; 
+        }
+
+        a:link, a:visited {
+            color: #66899D;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            color: #8D6494;
+            text-decoration: none;
+        }
+
+        h1, aside, h2 {
+            max-width: 300px;
+            padding: 10px;
+            /*background-color: rgba(0, 0, 0, 0.7);*/
+            text-shadow: 2px 2px 5px #000000;
+        }
+
+        /* Page structure */
+
+        body {
+            font-family: sans-serif;
+            background: #111314 url('main.jpeg') no-repeat fixed center;
+            background-size: cover;
+            color: #B7BBB7;
+            margin: auto;
+            padding: 20px 5px 20px 5px;
+            display: block;
+            max-width: 1080px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.7);
+            transition: background-color 0.5s;
+        }
+
+        ul:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        a {
+            padding-right: 10px;
+            padding-left: 5px;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        li.display{
+            line-height: 0;
+        }
+
+        div.section{
+            padding: 10px;
+            width: 250px;
+            height: 250px;
+            opacity: 0.4;
+            font-size: 16px;
+            transition: opacity 0.5s, width 0.5s, font-size 0.25s, background 1s;
+            -webkit-transition: opacity 0.5s, width 0.5s, font-size 0.25s, background 1s;
+            transition-timing-function: ease;
+            overflow: auto;
+            position: relative;
+            line-height: 1.4;
+        }
+
+        div.section:hover, div.section:focus {
+            opacity: 1;
+            font-size: 18px;
+            color: #FFF;
+            /*width: 400px;*/
+        }
+
+        div.section:hover #t a {
+            color: #FFF;
+        }
+
+        #char {
+            background: #111314 url('back_01.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #setting {
+            background: #111314 url('back_02.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #conflict {
+            background: #111314 url('back_03.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #symbol {
+            background: #111314 url('back_04.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #theme {
+            background: #111314 url('back_05.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #plot {
+            background: #111314 url('back_06.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #crit {
+            background: #111314 url('back_07.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #cred {
+            background: #111314 url('back_08.png') no-repeat center center;
+            background-size: cover;
+        }
+
+        /* SearchBox */
+
+        .searchForm {
+            padding-left: 26px;
+            padding-right: 26px;
+        }
+
+        .searchInput {
+            width: 95%;
+            border: none;
+            margin: auto;
+            display: block;
+            padding: 5px 10px 5px 10px;
+            /*background-color: #343d46;*/
+            background-color: rgba(52, 61, 70, 0.4);
+            color: #eff1f5;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+<body>
+<!--
+<div class="search">
+    <form class="searchForm" method="POST" action="https://www.startpage.com/do/search">
+        <input class="searchInput" placeholder="Search StartPage" type="text" name="q" autofocus>
+-->
+        <!-- 
+    <form class="searchForm" method="GET" action="https://duckduckgo.com/lite/?kp=-1&kl=uk-en&kaf=1&q=">
+        <input class="searchInput" placeholder="Search DuckDuckGo" type="text" name="q" autofocus>
+        
+    </form>
+   
+</div> -->
+<p>
+<li class="display">
+<ul>
+<div id="char" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/Characters_Molokai/">Characters</a></h2> 
+    </div>
+</ul><ul>
+<div id="setting" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/setting_molokai/">Setting</a></h2>
+</div>
+</ul><ul>
+<div id="conflict" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/conflicts_molokai/">Conflicts</a></h2>
+</div>
+</ul><ul>
+<div id="symbol" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/symbols_molokai/">Symbol</a></h2>
+
+</div>
+</ul><ul>
+<div id="theme" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/theme_molokai/">Theme</a></h2>
+</div>
+</ul><ul>
+<div id="plot" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/plot_chart_molokai/">Plot Chart</a></h2>
+</div>
+</ul><ul>
+<div id="crit" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/lit_crit/">Critiques</a></h2>
+</div>
+</ul><ul>
+<div id="cred" class="section">
+    <h2 id="t"><a href="https://lit-tracks.github.io/credit_molokai/">Credits (WIP)</a></h2>
+</div>
+</ul>
+</li>
+</p>
+</body></html>
